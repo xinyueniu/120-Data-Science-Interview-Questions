@@ -10,7 +10,7 @@
   - For linear, it might not too bad, but for nonlinear, it will be very bad.
   - Fact1: As dimensionality d increases, all points become outliers
 Ratio reduces quickly.〖(.8)〗^d
-  - Fact2: Number if data points needed to see nonlinearities increases with dimension d. Need Even More Data When There is Noise. And There is Always Noise
+  - Fact2: Number of data points needed to see nonlinearities increases with dimension d. Need Even More Data When There is Noise. And There is Always Noise
 
   - Conclusion:
     - Work hard to minimize dimensionality. Only include variables with substantial information, and minimize the number of variables.
