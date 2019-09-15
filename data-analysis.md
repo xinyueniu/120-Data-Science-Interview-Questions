@@ -23,11 +23,11 @@ Ratio reduces quickly.〖(.8)〗^d
   - Practically,
     - Also there’s a tradeoff between having more data and the additional storage, computational power, memory it requires. Hence, always think about the cost of having more data.
 #### 5. What are advantages of plotting your data before per- forming analysis?
-  - 1) Data sets have errors.  You won't find them all but you might find some. That 212 year old man. That 9 foot tall woman.  
+1) roughly understand of the structure of data
+2) Data sets have errors.  You won't find them all but you might find some. That 212 year old man. That 9 foot tall woman.  
 
-2) Variables can have skewness, outliers etc.  Then the arithmetic mean might not be useful. Which means the standard deviation isn't useful.  
+3) Variables can have skewness, outliers etc. Then the arithmetic mean might not be useful. Which means the standard deviation isn't useful.  
 
-3) Variables can be multimodal!  If a variable is multimodal then anything based on its mean or median is going to be suspect. 
 #### 6. How can you make sure that you don’t analyze something that ends up meaningless?
   - Proper exploratory data analysis.  
 
