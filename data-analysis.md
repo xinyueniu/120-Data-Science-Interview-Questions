@@ -7,11 +7,15 @@
     - hence use adjusted R^2 which adjusts for the degrees of freedom 
     - or train error metrics
 #### 3. What is the curse of dimensionality?
-  - High dimensionality makes clustering hard, because having lots of dimensions means that everything is "far away" from each other.
-  - For example, to cover a fraction of the volume of the data we need to capture a very wide range for each variable as the number of variables increases
-  - All samples are close to the edge of the sample. And this is a bad news because prediction is much more difficult near the edges of the training sample.
-  - The sampling density decreases exponentially as p increases and hence the data becomes much more sparse without significantly more data. 
-  - We should conduct PCA to reduce dimensionality
+  - For linear, it might not too bad, but for nonlinear, it will be very bad.
+  - Fact1: As dimensionality d increases, all points become outliers
+Ratio reduces quickly.〖(.8)〗^d
+  - Fact2: Number if data points needed to see nonlinearities increases with dimension d. Need Even More Data When There is Noise. And There is Always Noise
+
+  - Conclusion:
+    - Work hard to minimize dimensionality. Only include variables with substantial information, and minimize the number of variables.
+    - Start with a baseline linear model and see if you can do better
+
 #### 4. Is more data always better?
   - Statistically,
     - It depends on the quality of your data, for example, if your data is biased, just getting more data won’t help.
